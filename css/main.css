@@ -6,7 +6,7 @@ header{
 }
 
 .negro{
-	background-color: rgba(81,88,96,0.6)
+	background-color: rgba(81,88,96,0.6);
 }
 
 header ul{
@@ -33,6 +33,11 @@ li a{
 .medio{
 	vertical-align: middle;
 	display: table-cell;
+}
+
+.services h3{
+	color: #74A3DB;
+	padding: 10px;
 }
 
 .header-banner{
@@ -102,9 +107,10 @@ button{
 }
 
 .lo-quiero img{
-	background: url(../image/sec-2.jpg);
 	width: 100%;
 	height: 500px;
+	background: black;
+	opacity: 0.5;
 }
 
 .compu{
